@@ -1,0 +1,14 @@
+PODS:
+  - LGPlaceholderView (1.0.0)
+
+DEPENDENCIES:
+  - LGPlaceholderView (from `../`)
+
+EXTERNAL SOURCES:
+  LGPlaceholderView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LGPlaceholderView: 094da35c35f62b6d584797c5c6e13fea6e72ccfe
+
+COCOAPODS: 0.37.2

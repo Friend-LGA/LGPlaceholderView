@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A41726A1A9B810000D17B93 /* PlaceholderScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4172691A9B810000D17B93 /* PlaceholderScrollViewController.m */; };
+		4A890BE01A9A191200843850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A890BDF1A9A191200843850 /* main.m */; };
+		4A890BE31A9A191200843850 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A890BE21A9A191200843850 /* AppDelegate.m */; };
+		4A890BEB1A9A191300843850 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A890BEA1A9A191300843850 /* Images.xcassets */; };
+		4A890C071A9A1A7700843850 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A890C041A9A1A7700843850 /* NavigationController.m */; };
+		4A890C081A9A1A7700843850 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A890C061A9A1A7700843850 /* TableViewController.m */; };
+		4A9C37A11A9D0CD900C5EAB5 /* PlaceholderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C37A01A9D0CD900C5EAB5 /* PlaceholderViewController.m */; };
+		4ABB0E471A9E370F009E5135 /* PlaceholderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB0E461A9E370F009E5135 /* PlaceholderTableViewController.m */; };
+		4ABB0E4A1A9E4DEE009E5135 /* PlaceholderCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB0E491A9E4DEE009E5135 /* PlaceholderCollectionViewController.m */; };
+		4ABB0E4D1A9E4F69009E5135 /* PlaceholderWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB0E4C1A9E4F69009E5135 /* PlaceholderWebViewController.m */; };
+		A2ABF2001ACBA006146C44C2 /* libPods-LGPlaceholderViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D121CA33D600439D4A06B885 /* libPods-LGPlaceholderViewDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A4172681A9B810000D17B93 /* PlaceholderScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderScrollViewController.h; sourceTree = "<group>"; };
+		4A4172691A9B810000D17B93 /* PlaceholderScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderScrollViewController.m; sourceTree = "<group>"; };
+		4A890BDA1A9A191200843850 /* LGPlaceholderViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGPlaceholderViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A890BDE1A9A191200843850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A890BDF1A9A191200843850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A890BE11A9A191200843850 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A890BE21A9A191200843850 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A890BEA1A9A191300843850 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4A890C031A9A1A7700843850 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		4A890C041A9A1A7700843850 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		4A890C051A9A1A7700843850 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		4A890C061A9A1A7700843850 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		4A9C379F1A9D0CD900C5EAB5 /* PlaceholderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderViewController.h; sourceTree = "<group>"; };
+		4A9C37A01A9D0CD900C5EAB5 /* PlaceholderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderViewController.m; sourceTree = "<group>"; };
+		4ABB0E451A9E370F009E5135 /* PlaceholderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderTableViewController.h; sourceTree = "<group>"; };
+		4ABB0E461A9E370F009E5135 /* PlaceholderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderTableViewController.m; sourceTree = "<group>"; };
+		4ABB0E481A9E4DEE009E5135 /* PlaceholderCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderCollectionViewController.h; sourceTree = "<group>"; };
+		4ABB0E491A9E4DEE009E5135 /* PlaceholderCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderCollectionViewController.m; sourceTree = "<group>"; };
+		4ABB0E4B1A9E4F69009E5135 /* PlaceholderWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderWebViewController.h; sourceTree = "<group>"; };
+		4ABB0E4C1A9E4F69009E5135 /* PlaceholderWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderWebViewController.m; sourceTree = "<group>"; };
+		57D82F8A0498C171BA56127A /* Pods-LGPlaceholderViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGPlaceholderViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGPlaceholderViewDemo/Pods-LGPlaceholderViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B9E5B88AEE72DB88D1D09904 /* Pods-LGPlaceholderViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGPlaceholderViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGPlaceholderViewDemo/Pods-LGPlaceholderViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D121CA33D600439D4A06B885 /* libPods-LGPlaceholderViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGPlaceholderViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A890BD71A9A191200843850 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ABF2001ACBA006146C44C2 /* libPods-LGPlaceholderViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2170087D6B51C392851FD89E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D121CA33D600439D4A06B885 /* libPods-LGPlaceholderViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A3F4B5B1AA8BA8F006D9DAA /* Demo View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB0E401A9E3696009E5135 /* UIView + All Types */,
+				4ABB0E411A9E36AE009E5135 /* UIScrollView + Loading */,
+				4ABB0E421A9E36BD009E5135 /* UITableView + Loading */,
+				4ABB0E431A9E36C8009E5135 /* UICollectionView + Loading */,
+				4ABB0E441A9E36DB009E5135 /* UIWebView + Loading */,
+			);
+			name = "Demo View Controllers";
+			sourceTree = "<group>";
+		};
+		4A890BD11A9A191200843850 = {
+			isa = PBXGroup;
+			children = (
+				4A890BDC1A9A191200843850 /* LGPlaceholderViewDemo */,
+				4A890BDB1A9A191200843850 /* Products */,
+				C6044416B6BE22555E1C75D6 /* Pods */,
+				2170087D6B51C392851FD89E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A890BDB1A9A191200843850 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A890BDA1A9A191200843850 /* LGPlaceholderViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A890BDC1A9A191200843850 /* LGPlaceholderViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4A890BE11A9A191200843850 /* AppDelegate.h */,
+				4A890BE21A9A191200843850 /* AppDelegate.m */,
+				4A890C031A9A1A7700843850 /* NavigationController.h */,
+				4A890C041A9A1A7700843850 /* NavigationController.m */,
+				4A890C051A9A1A7700843850 /* TableViewController.h */,
+				4A890C061A9A1A7700843850 /* TableViewController.m */,
+				4A3F4B5B1AA8BA8F006D9DAA /* Demo View Controllers */,
+				4A890BEA1A9A191300843850 /* Images.xcassets */,
+				4A890BDD1A9A191200843850 /* Supporting Files */,
+			);
+			path = LGPlaceholderViewDemo;
+			sourceTree = "<group>";
+		};
+		4A890BDD1A9A191200843850 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A890BDE1A9A191200843850 /* Info.plist */,
+				4A890BDF1A9A191200843850 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4ABB0E401A9E3696009E5135 /* UIView + All Types */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C379F1A9D0CD900C5EAB5 /* PlaceholderViewController.h */,
+				4A9C37A01A9D0CD900C5EAB5 /* PlaceholderViewController.m */,
+			);
+			name = "UIView + All Types";
+			sourceTree = "<group>";
+		};
+		4ABB0E411A9E36AE009E5135 /* UIScrollView + Loading */ = {
+			isa = PBXGroup;
+			children = (
+				4A4172681A9B810000D17B93 /* PlaceholderScrollViewController.h */,
+				4A4172691A9B810000D17B93 /* PlaceholderScrollViewController.m */,
+			);
+			name = "UIScrollView + Loading";
+			sourceTree = "<group>";
+		};
+		4ABB0E421A9E36BD009E5135 /* UITableView + Loading */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB0E451A9E370F009E5135 /* PlaceholderTableViewController.h */,
+				4ABB0E461A9E370F009E5135 /* PlaceholderTableViewController.m */,
+			);
+			name = "UITableView + Loading";
+			sourceTree = "<group>";
+		};
+		4ABB0E431A9E36C8009E5135 /* UICollectionView + Loading */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB0E481A9E4DEE009E5135 /* PlaceholderCollectionViewController.h */,
+				4ABB0E491A9E4DEE009E5135 /* PlaceholderCollectionViewController.m */,
+			);
+			name = "UICollectionView + Loading";
+			sourceTree = "<group>";
+		};
+		4ABB0E441A9E36DB009E5135 /* UIWebView + Loading */ = {
+			isa = PBXGroup;
+			children = (
+				4ABB0E4B1A9E4F69009E5135 /* PlaceholderWebViewController.h */,
+				4ABB0E4C1A9E4F69009E5135 /* PlaceholderWebViewController.m */,
+			);
+			name = "UIWebView + Loading";
+			sourceTree = "<group>";
+		};
+		C6044416B6BE22555E1C75D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9E5B88AEE72DB88D1D09904 /* Pods-LGPlaceholderViewDemo.debug.xcconfig */,
+				57D82F8A0498C171BA56127A /* Pods-LGPlaceholderViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A890BD91A9A191200843850 /* LGPlaceholderViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A890BFD1A9A191300843850 /* Build configuration list for PBXNativeTarget "LGPlaceholderViewDemo" */;
+			buildPhases = (
+				4517D1983152AB3702F9E85D /* Check Pods Manifest.lock */,
+				4A890BD61A9A191200843850 /* Sources */,
+				4A890BD71A9A191200843850 /* Frameworks */,
+				4A890BD81A9A191200843850 /* Resources */,
+				08E45A5C7A621F2E56AD6E0A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGPlaceholderViewDemo;
+			productName = LGPlaceholderViewDemo;
+			productReference = 4A890BDA1A9A191200843850 /* LGPlaceholderViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A890BD21A9A191200843850 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					4A890BD91A9A191200843850 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A890BD51A9A191200843850 /* Build configuration list for PBXProject "LGPlaceholderViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A890BD11A9A191200843850;
+			productRefGroup = 4A890BDB1A9A191200843850 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A890BD91A9A191200843850 /* LGPlaceholderViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A890BD81A9A191200843850 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A890BEB1A9A191300843850 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08E45A5C7A621F2E56AD6E0A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGPlaceholderViewDemo/Pods-LGPlaceholderViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4517D1983152AB3702F9E85D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A890BD61A9A191200843850 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A890C071A9A1A7700843850 /* NavigationController.m in Sources */,
+				4ABB0E471A9E370F009E5135 /* PlaceholderTableViewController.m in Sources */,
+				4A41726A1A9B810000D17B93 /* PlaceholderScrollViewController.m in Sources */,
+				4ABB0E4D1A9E4F69009E5135 /* PlaceholderWebViewController.m in Sources */,
+				4A890BE31A9A191200843850 /* AppDelegate.m in Sources */,
+				4ABB0E4A1A9E4DEE009E5135 /* PlaceholderCollectionViewController.m in Sources */,
+				4A890C081A9A1A7700843850 /* TableViewController.m in Sources */,
+				4A890BE01A9A191200843850 /* main.m in Sources */,
+				4A9C37A11A9D0CD900C5EAB5 /* PlaceholderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4A890BFB1A9A191300843850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A890BFC1A9A191300843850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A890BFE1A9A191300843850 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E5B88AEE72DB88D1D09904 /* Pods-LGPlaceholderViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = LGPlaceholderViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A890BFF1A9A191300843850 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D82F8A0498C171BA56127A /* Pods-LGPlaceholderViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = LGPlaceholderViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A890BD51A9A191200843850 /* Build configuration list for PBXProject "LGPlaceholderViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A890BFB1A9A191300843850 /* Debug */,
+				4A890BFC1A9A191300843850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A890BFD1A9A191300843850 /* Build configuration list for PBXNativeTarget "LGPlaceholderViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A890BFE1A9A191300843850 /* Debug */,
+				4A890BFF1A9A191300843850 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A890BD21A9A191200843850 /* Project object */;
+}
