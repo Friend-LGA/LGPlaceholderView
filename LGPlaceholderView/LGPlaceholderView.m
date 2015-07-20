@@ -724,7 +724,7 @@ LGPlaceholderViewType;
 {
     if (animated)
     {
-        [LGPlaceholderView animateStandartWithAnimations:^(void)
+        [LGPlaceholderView animateStandardWithAnimations:^(void)
          {
              [self showDismissAnimations:show];
          }
@@ -800,7 +800,7 @@ LGPlaceholderViewType;
 
 #pragma mark - Support
 
-+ (void)animateStandartWithAnimations:(void(^)())animations completion:(void(^)(BOOL finished))completion
++ (void)animateStandardWithAnimations:(void(^)())animations completion:(void(^)(BOOL finished))completion
 {
     if ([UIDevice currentDevice].systemVersion.floatValue >= 7.0)
     {
