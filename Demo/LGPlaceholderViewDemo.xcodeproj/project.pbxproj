@@ -187,6 +187,7 @@
 				4A890BD71A9A191200843850 /* Frameworks */,
 				4A890BD81A9A191200843850 /* Resources */,
 				08E45A5C7A621F2E56AD6E0A /* Copy Pods Resources */,
+				3737ED2E6CD294FDBA96741E /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +255,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGPlaceholderViewDemo/Pods-LGPlaceholderViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3737ED2E6CD294FDBA96741E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGPlaceholderViewDemo/Pods-LGPlaceholderViewDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4517D1983152AB3702F9E85D /* Check Pods Manifest.lock */ = {
