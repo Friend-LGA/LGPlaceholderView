@@ -27,13 +27,13 @@
     if (self)
     {
         self.title = @"LGPlaceholderView";
-        
+
         _titlesArray = @[@"UIView + All Types",
                          @"UIScrollView + Loading",
                          @"UITableView + Loading",
                          @"UICollectionView + Loading",
                          @"UIWebView + Loading"];
-        
+
         [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     }
     return self;
@@ -56,10 +56,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
-    
+
     cell.textLabel.font = [UIFont systemFontOfSize:16.f];
     cell.textLabel.text = _titlesArray[indexPath.row];
-    
+
     return cell;
 }
 

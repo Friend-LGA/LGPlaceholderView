@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4A41726A1A9B810000D17B93 /* PlaceholderScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4172691A9B810000D17B93 /* PlaceholderScrollViewController.m */; };
+		4A836B661BF4E023008374ED /* LGPlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A836B651BF4E023008374ED /* LGPlaceholderView.m */; };
 		4A890BE01A9A191200843850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A890BDF1A9A191200843850 /* main.m */; };
 		4A890BE31A9A191200843850 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A890BE21A9A191200843850 /* AppDelegate.m */; };
 		4A890BEB1A9A191300843850 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A890BEA1A9A191300843850 /* Images.xcassets */; };
@@ -17,12 +18,13 @@
 		4ABB0E471A9E370F009E5135 /* PlaceholderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB0E461A9E370F009E5135 /* PlaceholderTableViewController.m */; };
 		4ABB0E4A1A9E4DEE009E5135 /* PlaceholderCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB0E491A9E4DEE009E5135 /* PlaceholderCollectionViewController.m */; };
 		4ABB0E4D1A9E4F69009E5135 /* PlaceholderWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB0E4C1A9E4F69009E5135 /* PlaceholderWebViewController.m */; };
-		A2ABF2001ACBA006146C44C2 /* libPods-LGPlaceholderViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D121CA33D600439D4A06B885 /* libPods-LGPlaceholderViewDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A4172681A9B810000D17B93 /* PlaceholderScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderScrollViewController.h; sourceTree = "<group>"; };
 		4A4172691A9B810000D17B93 /* PlaceholderScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderScrollViewController.m; sourceTree = "<group>"; };
+		4A836B641BF4E023008374ED /* LGPlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPlaceholderView.h; sourceTree = "<group>"; };
+		4A836B651BF4E023008374ED /* LGPlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPlaceholderView.m; sourceTree = "<group>"; };
 		4A890BDA1A9A191200843850 /* LGPlaceholderViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGPlaceholderViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A890BDE1A9A191200843850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A890BDF1A9A191200843850 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,9 +43,6 @@
 		4ABB0E491A9E4DEE009E5135 /* PlaceholderCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderCollectionViewController.m; sourceTree = "<group>"; };
 		4ABB0E4B1A9E4F69009E5135 /* PlaceholderWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceholderWebViewController.h; sourceTree = "<group>"; };
 		4ABB0E4C1A9E4F69009E5135 /* PlaceholderWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceholderWebViewController.m; sourceTree = "<group>"; };
-		57D82F8A0498C171BA56127A /* Pods-LGPlaceholderViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGPlaceholderViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LGPlaceholderViewDemo/Pods-LGPlaceholderViewDemo.release.xcconfig"; sourceTree = "<group>"; };
-		B9E5B88AEE72DB88D1D09904 /* Pods-LGPlaceholderViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LGPlaceholderViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LGPlaceholderViewDemo/Pods-LGPlaceholderViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		D121CA33D600439D4A06B885 /* libPods-LGPlaceholderViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LGPlaceholderViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +50,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2ABF2001ACBA006146C44C2 /* libPods-LGPlaceholderViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +59,6 @@
 		2170087D6B51C392851FD89E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D121CA33D600439D4A06B885 /* libPods-LGPlaceholderViewDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,12 +75,22 @@
 			name = "Demo View Controllers";
 			sourceTree = "<group>";
 		};
+		4A836B631BF4E023008374ED /* LGPlaceholderView */ = {
+			isa = PBXGroup;
+			children = (
+				4A836B641BF4E023008374ED /* LGPlaceholderView.h */,
+				4A836B651BF4E023008374ED /* LGPlaceholderView.m */,
+			);
+			name = LGPlaceholderView;
+			path = ../LGPlaceholderView;
+			sourceTree = "<group>";
+		};
 		4A890BD11A9A191200843850 = {
 			isa = PBXGroup;
 			children = (
+				4A836B631BF4E023008374ED /* LGPlaceholderView */,
 				4A890BDC1A9A191200843850 /* LGPlaceholderViewDemo */,
 				4A890BDB1A9A191200843850 /* Products */,
-				C6044416B6BE22555E1C75D6 /* Pods */,
 				2170087D6B51C392851FD89E /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -166,15 +173,6 @@
 			name = "UIWebView + Loading";
 			sourceTree = "<group>";
 		};
-		C6044416B6BE22555E1C75D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B9E5B88AEE72DB88D1D09904 /* Pods-LGPlaceholderViewDemo.debug.xcconfig */,
-				57D82F8A0498C171BA56127A /* Pods-LGPlaceholderViewDemo.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,12 +180,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A890BFD1A9A191300843850 /* Build configuration list for PBXNativeTarget "LGPlaceholderViewDemo" */;
 			buildPhases = (
-				4517D1983152AB3702F9E85D /* Check Pods Manifest.lock */,
 				4A890BD61A9A191200843850 /* Sources */,
 				4A890BD71A9A191200843850 /* Frameworks */,
 				4A890BD81A9A191200843850 /* Resources */,
-				08E45A5C7A621F2E56AD6E0A /* Copy Pods Resources */,
-				3737ED2E6CD294FDBA96741E /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,7 +199,7 @@
 		4A890BD21A9A191200843850 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = test;
 				TargetAttributes = {
 					4A890BD91A9A191200843850 = {
@@ -241,54 +236,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		08E45A5C7A621F2E56AD6E0A /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGPlaceholderViewDemo/Pods-LGPlaceholderViewDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3737ED2E6CD294FDBA96741E /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LGPlaceholderViewDemo/Pods-LGPlaceholderViewDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4517D1983152AB3702F9E85D /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		4A890BD61A9A191200843850 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -297,6 +244,7 @@
 				4A890C071A9A1A7700843850 /* NavigationController.m in Sources */,
 				4ABB0E471A9E370F009E5135 /* PlaceholderTableViewController.m in Sources */,
 				4A41726A1A9B810000D17B93 /* PlaceholderScrollViewController.m in Sources */,
+				4A836B661BF4E023008374ED /* LGPlaceholderView.m in Sources */,
 				4ABB0E4D1A9E4F69009E5135 /* PlaceholderWebViewController.m in Sources */,
 				4A890BE31A9A191200843850 /* AppDelegate.m in Sources */,
 				4ABB0E4A1A9E4DEE009E5135 /* PlaceholderCollectionViewController.m in Sources */,
@@ -329,6 +277,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -389,7 +338,6 @@
 		};
 		4A890BFE1A9A191300843850 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9E5B88AEE72DB88D1D09904 /* Pods-LGPlaceholderViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -398,13 +346,13 @@
 				INFOPLIST_FILE = LGPlaceholderViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.$(PRODUCT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		4A890BFF1A9A191300843850 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57D82F8A0498C171BA56127A /* Pods-LGPlaceholderViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -413,6 +361,7 @@
 				INFOPLIST_FILE = LGPlaceholderViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.$(PRODUCT_NAME)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
