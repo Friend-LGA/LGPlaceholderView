@@ -5,13 +5,13 @@ For example when you push view controller and want to load some data from server
 
 ## Preview
 
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/Preview.gif" width="226"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/1.png" width="226"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/2.png" width="226"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/3.png" width="226"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/4.png" width="226"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/5.png" width="226"/>
-<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/6.png" width="226"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/Preview.gif" width="218"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/1.png" width="218"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/2.png" width="218"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/3.png" width="218"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/4.png" width="218"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/5.png" width="218"/>
+<img src="https://raw.githubusercontent.com/Friend-LGA/ReadmeFiles/master/LGPlaceholderView/6.png" width="218"/>
 
 ## Installation
 
